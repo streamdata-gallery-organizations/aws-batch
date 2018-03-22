@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateJobQueue&k=1:
+  /?Action=CreateJobQueue:
     get:
       summary: ' Create Job Queue '
       description: Creates an AWS Batch job queue
