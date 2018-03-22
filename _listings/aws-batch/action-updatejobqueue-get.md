@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateJobQueue&k=1:
+  /?Action=UpdateJobQueue:
     get:
       summary: ' Update Job Queue '
       description: Updates a job queue
