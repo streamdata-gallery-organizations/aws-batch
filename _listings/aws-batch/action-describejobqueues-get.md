@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeJobQueues&k=1:
+  /?Action=DescribeJobQueues:
     get:
       summary: ' Describe Job Queues '
       description: Describes one or more of your job queues
