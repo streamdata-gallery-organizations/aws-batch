@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteJobQueue&k=1:
+  /?Action=DeleteJobQueue:
     get:
       summary: ' Delete Job Queue '
       description: Deletes the specified job queue
