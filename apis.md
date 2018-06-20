@@ -1,36 +1,17 @@
 ---
-name: AWS Batch
-x-slug: aws-batch
-description: AWS Batch enables developers, scientists, and engineers to easily and
-  efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch
-  dynamically provisions the optimal quantity and type of compute resources (e.g.,
-  CPU or memory optimized instances) based on the volume and specific resource requirements
-  of the batch jobs submitted. With AWS Batch, there is no need to install and manage
-  batch computing software or server clusters that you use to run your jobs, allowing
-  you to focus on analyzing results and solving problems. AWS Batch plans, schedules,
-  and executes your batch computing workloads across the full range of AWS compute
-  services and features, such as Amazon EC2 and Spot Instances.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
-x-kinRank: "10"
-x-alexaRank: ""
-tags: AWS Batch
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-batch/master/_listings/aws-batch/apis.md
+name: Streadata.io API Gallery - AWS Batch
+description: This is a repository of aws batch APIs, self-contained as a Github repository,
+  with HTML and YAML representations of the APIs and their surrounding operations.
+image: http://template.streamdata.gallery/assets/aws-batch.png
+created: "2018-02-24"
+modified: "2018-06-20"
+url: http://aws-batch.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
-- type: x-faq
-  url: https://aws.amazon.com/batch/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/batch/pricing/
-- type: x-use-cases
-  url: https://aws.amazon.com/batch/use-cases/
-- type: x-website
-  url: https://aws.amazon.com/batch/
-include: []
+tags: AWS Batch
+include:
+- name: AWS Batch
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-batch/master/_listings/aws-batch/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

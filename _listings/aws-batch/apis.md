@@ -12,10 +12,10 @@ description: AWS Batch enables developers, scientists, and engineers to easily a
   services and features, such as Amazon EC2 and Spot Instances.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Batch
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-batch/master/_listings/aws-batch/apis.md
 specificationVersion: "0.14"
 apis:
